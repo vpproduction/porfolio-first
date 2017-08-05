@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Hi,my name is Vitalii. And i am html-coder. I write code, a lot. This is my portfolio page and here you can find my works, contact information and, i hope, good user experience">
+	<meta name="keywords" content="Frontend developer, HTML-coder, html developer, css developer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Vitalii Parshikov" >
+	<meta name="copyright" content="Copyright owner" >
+	<meta name="robots" content="index">
+	<title>Vitalii P., html-coder</title>
+	<!-- link my styling -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mq.css">
+	<!-- Font-awesome -->
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- load favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<!-- Plugins -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+	<!-- load AnimationOnScroll script -->
+	<script   src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+	<!-- load jQuery for:image replacing -->
+	<script  src="js/jquery-3.1.1.min.js"></script>
+	<script  src="js/replacer.js"></script>
+	<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--[if lte IE 9]>
+     		<div class="browse-happy">
+     			<h3>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</h3>
+     		</div>
+<![endif]-->
+	<aside class="sidebar" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
+	<div class="change_lang"><a href="ru/index.html" class="change_lang_link"><i class="fa fa-language" aria-hidden="true"></i><br class="brake_rights"> rus</a></div>
+		<nav class="menu" >
+			<ul class="navbar_list">
+				<li class="navbar_list_item"><a href="#introducing" class="inner_link inner_link_introduce" aria-label="go to introducing section"><i class="fa fa-grav fa-fw" aria-hidden="true"></i></a></li>
+				<li class="navbar_list_item"><a href="#about_me" class="inner_link inner_link_about" aria-label="go to section totally about me"><i class="fa fa-address-book fa-fw" aria-hidden="true"></i></a></li>
+				<li class="navbar_list_item"><a href="#my_works" class="inner_link inner_link_works" aria-label="go to section totally about my works"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i></a></li>
+				<li class="navbar_list_item"><a href="#contacts" class="inner_link inner_link_contact" aria-label="go to how to contact me section"><i class="fa fa-pencil-square fa-fw" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+	</aside>
+	<main class="content_wrapper" >
+		<section id="introducing" class="flex_parent">
+
+			<div class="portrait flex_child"></div>
+			<header id="site_header" class="flex_child flex_parent">
+				<div class="introduce_myself flex_child"  data-aos="fade-left"  data-aos-offset="100" data-aos-duration="200" data-aos-easing="ease-out" data-aos-once="true">
+					<div class="logo">
+						<img src="img/introduce/logo.png" alt="vitalii parshikov logo" class="logo_image">
+					</div>
+					<div class="name">
+						<span class="heading">Vitalii Parshikov </span>
+					</div>
+				</div>
+				<div class="introduce_dev">
+					<h1 class="heading whoami" data-aos="fade-left"    data-aos-once="true">html-coder &amp;&nbsp;frontend&nbsp;dev</h1>
+					<!-- data-aos-offset="90" -->
+				</div>
+				<div id="about_me" class="flex_child flex_parent" >
+					<h2 class="heading about_head" data-aos="fade-left" data-aos-once="true"><span>about me</span></h2>
+					<p class="about_description" data-aos="fade-left" data-aos-once="true">
+						I try to combine my experience and passion to create strong ties beetwen human world and technologies. I believe that robust, acceesible, enjoyable and agreeable UI is the must for modern web. I hope to make an incredible UX for future customers.
+					</p>
+				</div>
+				<!-- <blockquote class="w_blake flex_child" data-aos="fade-right" data-aos-once="true">
+					<p>He who desires, but acts not, bring pestilence</p>
+					<cite class="quote_author"><a class="w_blake_link" href="http://www.blakearchive.org/" title="go to william blake online archive">W. Blake <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></cite>
+				</blockquote> -->
+			</header>			
+		</section>
+		<section id="my_works">
+			<h2 class="my_works_heading heading"> <span>my works </span><small>&nbsp;[non-profit]</small></h2>
+			<div class="my_works_block flex_parent">
+				<div class="my_work  flex_child flex_parent"  data-aos="fade-left"  data-aos-once="true">
+					<div class="work_scshot flex_child">
+						<img src="img/works/wapik/400.png" alt="screenshot of wapik template site,responsive,made from PSD-mockup" class="work_scshot_img wapik_img">
+						
+					</div>
+					<div class="work_description flex_child" >
+						<img src="img/works/logos/wapik.png" alt="wapik template logo" class="wapik_logo">
+						<p> 
+							Desktop-first, responsive and accessible landing page that i have coded from PSD-mockup from dribbble. It included version for screens with display width above 1600px. The design choices for screens  with width under 768px i made by myself. While i was strugling with css-issues, i  was taught a plenty new ways of increment usabillity. Cross-browser &amp; cross-platform
+						</p>
+						<div class="source_block">
+							<p class="source_text"> You may visit <a href="https://avorona.github.io/wapik_template/" class="source_link" target="_blank"> project page </a> or <a href="https://github.com/AVorona/wapik_template" class="source_code">inspect the code </a></p>
+						</div>
+					</div>
+				</div>
+				<div class="my_work flex_child flex_parent" data-aos="fade-right"  data-aos-once="true">
+					<div class="work_scshot flex_child">
+						<img src="img/works/tajam/400.png" alt="screenshot of tajam template,responsive,made from PSD-mockup" class="work_scshot_img tajam_img" >						
+					</div>
+					<div class="work_description flex_child">
+						<img src="img/works/logos/tajam.png" alt="tajam" class="tajam_logo">
+						<p> 
+							Mobile-first, responsive and accessible landing page. Layout was made with Bootstrap 3. Sliding and swipe-function  by jQuery library. And like in the case with wapik template the versions for mobile and tablet  were made totally by myself. Also i added some js-code to implement swipe-function for carousel. I realy like the carousel in testimonials section. Probably you will smile if you are IT-crowd's fun. Cross-browser &amp; cross-platform
+						</p>
+						<div class="source_block">
+							<p class="source_text"> You may visit <a href="https://avorona.github.io/bootstrap_template/" class="source_link" target="_blank"> source page </a> or <a href="https://github.com/AVorona/bootstrap_template" class="source_code" target="_blank">inspect the code </a></p>
+						</div>
+					</div>
+				</div>
+				<div class="my_work flex_child flex_parent" data-aos="fade-left"  data-aos-once="true">
+					<div class="work_scshot flex_child">
+						
+						<img src="img/works/codepen/400.png" alt="screenshot of codepen snippets and projects, freecodecamp" class="work_scshot_img codepen_img" >
+
+					</div>
+					<div class="work_description flex_child">
+						<img src="img/works/logos/fcc.png" alt="freecodecamp" class="fcc_logo">
+						<p> 
+							My collection of snippets and projects which i create on the way of obtaining  FreeCode Camp certificate. There are not a huge amount of my projects at the moment. But this bucket will be filled by myself in the most shorter terms.
+						</p>
+						<div class="source_block">
+							<p class="source_text"> You may visit <a href="https://codepen.io/collection/nLRaZg/" class="source_link" target="_blank"> source page and edit code </a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="sponsors">
+			<h2 class="sponsors heading" data-aos="fade-left"  data-aos-offset="100" data-aos-duration="500" data-aos-easing="ease-out"  data-aos-once="true" ><span>Major sponsors </span>of&nbsp;the&nbsp;dev&nbsp;process </h2>
+			<div class="sponsors_wrapper flex_parent">
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://css-tricks.com/guides/" class="sponsor_link-1" aria-label="visit external resource - css-tricks.com "></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://developer.mozilla.org/en-US/docs/Learn" class="sponsor_link-2" aria-label="visit external resource - mozzila developer page"></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://stackoverflow.com/search?q=javascript+html++dom+css" class="sponsor_link-3" aria-label="visit external resource - stack over flow "></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://habrahabr.ru/company/zfort/" class="sponsor_link-4" aria-label="visit external resource habrahabr page"></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://guides.github.com/activities/hello-world/" class="sponsor_link-5" aria-label="visit external resource - github"></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://validator.w3.org/" class="sponsor_link-6" aria-label="visit external resource w3c code validation page"></a>
+				</div>
+			</div>			
+		</section>
+		<section id="contacts">		
+			<div class="contacts_wrapper flex_parent" >
+				<div class="socials_block_wrapper flex_child" data-aos="fade-right" data-aos-easing="ease-out"  data-aos-once="true">
+					<h2 class="contacts_heading heading"  >Have any suggestions or want to coloborate? Just&nbsp;<span>write/fork!</span></h2>
+					<div class="socials-wrapper" >
+						<ul class="socials">
+							<li class="social_net"><a href="https://www.linkedin.com/in/vitalii-parshikov-25b59a137" class="social_link linkedin" title="my LinkedIn page"><i class="fa fa-2x fa-linkedin" aria-hidden="true" aria-label="connect to me on linkedin"></i> </a></li>
+							<li class="social_net"><a href="https://codepen.io/AVorona" class="social_link codepen" title="my codepen page"><i class="fa fa-2x fa-codepen" aria-hidden="true" aria-label="look at my freecodecamp projects"></i></a></li>
+							<li class="social_net"><a href="https://github.com/AVorona" class="social_link github" title="My github"><i class="fa fa-2x fa-github" aria-hidden="true" aria-label=" just say hi"></i></a></li>
+						</ul>
+					</div>
+				</div>		
+				<div class="mail_me flex_child"  data-aos="fade-left" data-aos-easing="ease-out"  data-aos-once="true">
+					<h4 class="send_letter_head heading">Or, just send me a <span>letter</span></h4>
+					
+					<a href="mailto:vitalii.parshikov@gmail.com" role="button" class="send_letter_link" title="when you press this button - a new outgoing email window will be opened by  your mail client "><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a>				
+				</div>
+			</div>
+			<footer id="site_footer" class="copyright_block">
+				<a href="#introducing" class="arrow"><i class="fa fa-2x fa-arrow-up" aria-hidden="true"></i> </a>
+				<p class="copyright"><i class="copyrights-wrapper">designed and coded <br class="brake_rights"> <span class="anchor">by Vitalii Parshikov </span>   <small class="small"> (AVorona)</small> 2017 </i> </p>
+
+			</footer>
+		</section>
+	</main>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>

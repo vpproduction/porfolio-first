@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Привет, меня зовут Виталий. Я верстальщик и я пишу код, много кода. Это моё портфолио. Здесь вы можете найти мои работы, контактную информацию и, надеюсь, хороший пользовательский опыт.">
+	<meta name="keywords" content="frontend, frontend developer, html coder,верстальщик, веб верстальщик, Виталий Паршиков, ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Vitalii Parshikov" >
+	<meta name="copyright" content="Copyright owner" >
+	<meta name="robots" content="index">
+	<title>Виталий П., html-coder</title>
+	<!-- link my styling -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mq.css">
+	<!-- Font-awesome -->
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- load favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<!-- Plugins -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+	<!-- load AnimationOnScroll script -->
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+	<!-- load jQuery for:image replacing -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/replacer.js"></script>
+	<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--[if lte IE 9]>
+     		<div class="browse-happy">
+     			<h3>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</h3>
+     		</div>
+<![endif]-->
+	<aside class="sidebar" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
+	<div class="change_lang"><a href="../index.html" class="change_lang_link"><i class="fa fa-language" aria-hidden="true"></i><br class="brake_rights"> eng</a></div>
+		<nav class="menu" >
+			<ul class="navbar_list">
+				<li class="navbar_list_item"><a href="#introducing" class="inner_link inner_link_introduce" aria-label="go to introducing section"><i class="fa fa-grav fa-fw" aria-hidden="true"></i></a></li>
+				<li class="navbar_list_item"><a href="#about_me" class="inner_link inner_link_about" aria-label="go to section totally about me"><i class="fa fa-address-book fa-fw" aria-hidden="true"></i></a></li>
+				<li class="navbar_list_item"><a href="#my_works" class="inner_link inner_link_works" aria-label="go to section totally about my works"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i></a></li>
+				<li class="navbar_list_item"><a href="#contacts" class="inner_link inner_link_contact" aria-label="go to how to contact me section"><i class="fa fa-pencil-square fa-fw" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+	</aside>
+	<main class="content_wrapper" data-aos="fade-right" >
+		<section id="introducing" class="flex_parent">
+
+			<div class="portrait flex_child"></div>
+			<header id="site_header" class="flex_child flex_parent">
+				<div class="introduce_myself flex_child"  data-aos="fade-left"  data-aos-offset="100" data-aos-duration="200" data-aos-easing="ease-out" data-aos-once="true">
+					<div class="logo">
+						<img src="img/introduce/logo.png" alt="vitalii parshikov logo" class="logo_image">
+
+					</div>
+					<div class="name">
+						<span class="heading">Виталий Паршиков </span>
+					</div>
+				</div>
+				<div class="introduce_dev">
+					<h1 class="heading whoami" data-aos="fade-left" data-aos-offset="90"  data-aos-once="true">веб-верстальщик &amp;&nbsp;фронтенд&nbsp;разработчик</h1>
+				</div>
+				<div id="about_me" class="flex_child flex_parent" >
+					<h2 class="heading about_head" data-aos="fade-left" data-aos-once="true"><span>Обо мне</span></h2>
+					<p class="about_description" data-aos="fade-left" data-aos-once="true">
+						Я стремлюсь объединить свой опыт и желание, чтобы создавать сильные связи между человеческим миром и технологиями. Я верю, что надёжный, доступный, увлекательный и приятный пользовательский интерфейс - обязательный атрибут современного веба. Надеюсь создавать потрясающий пользовательский опыт для будущих пользователей.
+					</p>
+				</div>
+				<!-- <blockquote class="w_blake flex_child" data-aos="fade-right" data-aos-once="true">
+					<p>He who desires, but acts not, bring pestilence</p>
+					<cite class="quote_author"><a class="w_blake_link" href="http://www.blakearchive.org/" title="go to william blake online archive">W. Blake <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></cite>
+				</blockquote> -->
+			</header>			
+		</section>
+		<section id="my_works">
+			<h2 class="my_works_heading heading"> <span>Мои работы</span><small>&nbsp;[некоммерческие]</small></h2>
+			<div class="my_works_block flex_parent">
+				<div class="my_work  flex_child flex_parent"  data-aos="fade-left"  data-aos-once="true">
+					<div class="work_scshot flex_child">
+						<img src="img/works/wapik/400.png" alt="screenshot of wapik template site,responsive,made from PSD-mockup" class="work_scshot_img wapik_img">
+						
+					</div>
+					<div class="work_description flex_child" >
+						<img src="img/works/logos/wapik.png" alt="wapik template logo" class="wapik_logo">
+						<p> 
+							Desktop-first, отзывчивый и доступныый сайт-одностраничник, код написан после нарезки PSD-макета найденного на сайте dribbble. Он включал в себя только версию сайта для экранов с разрешением экрана около 1600px. Дизайнерские решения для экранов с шириной дисплея меньше 768px я принял сам. В процесе решения задач стилизации веб-страницы, я изучил множество новых путей улучшения доступности сайта. Кроссбраузерный &amp; кроссплатформенный.
+						</p>
+						<div class="source_block">
+							<p class="source_text"> Вы можете посетить <a href="https://avorona.github.io/wapik_template/" class="source_link" target="_blank"> сайт проекта </a> или <a href="https://github.com/AVorona/wapik_template" class="source_code">изучить код проекта </a></p>
+						</div>
+					</div>
+				</div>
+				<div class="my_work flex_child flex_parent" data-aos="fade-right"  data-aos-once="true">
+					<div class="work_scshot flex_child">
+						<img src="img/works/tajam/400.png" alt="screenshot of tajam template,responsive,made from PSD-mockup" class="work_scshot_img tajam_img" >						
+					</div>
+					<div class="work_description flex_child">
+						<img src="img/works/logos/tajam.png" alt="tajam" class="tajam_logo">
+						<p> 
+							Mobile-first, отзывчивый и доступныый сайт-одностраничник.  Разметка создана при помощи фреймворка Bootstrap 3. Слайдеры и свайп-функция для мобильных устройств создана при помощи js-библиотеки jQuery. И так же как в случае шаблона wapik, версии для моббильных устройств и планшетов созданы мною. Так же я добавил свайп-функцию для обоих слайдеров. Мне очень нравится слайдер в разделе отзывов. Думаю, если Вы фанат IT-crowd, как минимум улыбнётесь. Кроссбраузерный &amp; кроссплатформенный.
+						</p>
+						<div class="source_block">
+							<p class="source_text"> Вы можете посетить <a href="https://avorona.github.io/bootstrap_template/" class="source_link" target="_blank"> сайт проекта </a> или <a href="https://github.com/AVorona/bootstrap_template" class="source_code" target="_blank">изучить код проекта </a></p>
+						</div>
+					</div>
+				</div>
+				<div class="my_work flex_child flex_parent" data-aos="fade-left"  data-aos-once="true">
+					<div class="work_scshot flex_child">
+						
+						<img src="img/works/codepen/400.png" alt="screenshot of codepen snippets and projects, freecodecamp" class="work_scshot_img codepen_img" >
+
+					</div>
+					<div class="work_description flex_child">
+						<img src="img/works/logos/fcc.png" alt="freecodecamp" class="fcc_logo">
+						<p> 
+							Моя небольшая коллекция сниппетов и проектов, которые я создаю на пути к получению сертификата от FreeCodeCamp. Там не так много проектов на данный момент. Но коллекция будет пополнена мною в кратчайшие сроки.
+						</p>
+						<div class="source_block">
+							<p class="source_text"> Вы можете посетить <a href="https://codepen.io/collection/nLRaZg/" class="source_link" target="_blank"> источник и редактировать код </a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="sponsors">
+			<h2 class="sponsors heading" data-aos="fade-left"  data-aos-offset="100" data-aos-duration="500" data-aos-easing="ease-out"  data-aos-once="true" ><span>Главные спонсоры </span>процесса&nbsp;разработки </h2>
+			<div class="sponsors_wrapper flex_parent">
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://css-tricks.com/guides/" class="sponsor_link-1"></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://developer.mozilla.org/en-US/docs/Learn" class="sponsor_link-2"></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://stackoverflow.com/search?q=javascript+html++dom+css" class="sponsor_link-3"></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://habrahabr.ru/company/zfort/" class="sponsor_link-4"></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://guides.github.com/activities/hello-world/" class="sponsor_link-5"></a>
+				</div>
+				<div class="main_sponsor flex_child" data-aos="fade-up" data-aos-easing="ease-out"  data-aos-once="true" >
+					<a href="https://validator.w3.org/" class="sponsor_link-6"></a>
+				</div>
+			</div>			
+		</section>
+		<section id="contacts">		
+			<div class="contacts_wrapper flex_parent" >
+				<div class="socials_block_wrapper flex_child" data-aos="fade-right" data-aos-easing="ease-out"  data-aos-once="true">
+					<h2 class="contacts_heading heading"  >У вас есть какие-нибудь предложения или вы хотите сотрудничать? Просто&nbsp;<span>напишите/разветвите!</span></h2>
+					<div class="socials-wrapper" >
+						<ul class="socials">
+							<li class="social_net"><a href="https://www.linkedin.com/in/vitalii-parshikov-25b59a137" class="social_link linkedin" title="my LinkedIn page"><i class="fa fa-2x fa-linkedin" aria-hidden="true" aria-label="connect to me on linkedin"></i> </a></li>
+							<li class="social_net"><a href="https://codepen.io/AVorona" class="social_link codepen" title="my codepen page"><i class="fa fa-2x fa-codepen" aria-hidden="true" aria-label="look at my freecodecamp projects"></i></a></li>
+							<li class="social_net"><a href="https://github.com/AVorona" class="social_link github" title="My github"><i class="fa fa-2x fa-github" aria-hidden="true" aria-label=" just say hi"></i></a></li>
+						</ul>
+					</div>
+				</div>		
+				<div class="mail_me flex_child"  data-aos="fade-left" data-aos-easing="ease-out"  data-aos-once="true">
+					<h4 class="send_letter_head heading">Или же, просто напишите мне <span>письмо</span></h4>
+					
+					<a href="mailto:vitalii.parshikov@gmail.com" role="button" class="send_letter_link" title="when you press this button - a new outgoing email window will be opened by  your mail client "><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a>				
+				</div>
+			</div>
+			<footer id="site_footer" class="copyright_block">
+				<a href="#introducing" class="arrow"><i class="fa fa-2x fa-arrow-up" aria-hidden="true"></i> </a>
+				<p class="copyright"><i class="copyrights-wrapper">дизайн разработан, код написан <br class="brake_rights"> <span class="anchor">Виталием Паршиковым </span>   <small class="small"> (AVorona)</small> 2017 </i> </p>
+			</footer>
+		</section>
+	</main>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
